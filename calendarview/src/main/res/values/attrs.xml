@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalendarView">
+
+        <attr name="week_background" format="color" />
+        <attr name="week_text_color" format="color" />
+
+        <attr name="calendar_card_view" format="string" /><!-- -->
+
+        <attr name="scheme_text" format="string" />
+        <attr name="day_text_size" format="dimension" />
+        <attr name="lunar_text_size" format="dimension" />
+        <attr name="calendar_height" format="dimension" />
+        <attr name="scheme_text_color" format="color" />
+        <attr name="scheme_month_text_color" format="color" />
+        <attr name="scheme_lunar_text_color" format="color" />
+        <attr name="scheme_theme_color" format="color" />
+
+        <attr name="selected_theme_color" format="color" />
+        <attr name="selected_text_color" format="color" />
+        <attr name="selected_lunar_text_color" format="color" />
+
+        <attr name="current_day_text_color" format="color" />
+        <attr name="current_month_text_color" format="color" />
+        <attr name="other_month_text_color" format="color" />
+        <attr name="current_month_lunar_text_color" format="color" />
+        <attr name="other_month_lunar_text_color" format="color" />
+
+        <attr name="min_year" format="integer" />
+        <attr name="max_year" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="MonthView">
+        <attr name="month_view_text_size" format="dimension" />
+        <attr name="month_view_text_color" format="color" />
+        <attr name="month_view_remark_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CalendarLayout">
+        <attr name="calendar_content_view_id" format="integer" />
+    </declare-styleable>
+
+
+</resources>
